@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Gabriel Advent</h1>
-<h3 align="center">I am an informatics student at Sanata Dharma University and am interested in frontend</h3>
+<h3 align="center">I am an informatics student at Sanata Dharma University and am interested in web developer</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=gabrieladvent&label=Profile%20views&color=0e75b6&style=flat" alt="gabrieladvent" /> </p>
 
