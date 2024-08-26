@@ -1,5 +1,7 @@
-<h1 align="center">Hi, Welcome and enjoy</h1>
-<h3 align="center">I'm Gabriel Advent</h3>
-<h3 align="center">I am an informatics student at Sanata Dharma University and am interested in web developer</h3>
+I'm Gabriel Advent, a fresh graduate in Informatics Sanata Dharma University
+
+`
+stay tune
+`
 
 - 📫  **bie.ritan112@gmail.com**
