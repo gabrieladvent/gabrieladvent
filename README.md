@@ -1,4 +1,4 @@
-I'm Gabriel Advent, a fresh graduate in Informatics Sanata Dharma University
+I'm Gabriel Advent, a fullstack sleep in code
 
   `
   stay tune
