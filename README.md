@@ -1,7 +1,15 @@
-I'm Gabriel Advent, a fullstack sleep in code
+```bash
+$ curl -s https://github.com/gabrieladvent.gpg | gpg --import
+```
 
-  `
-  stay tune
-  `
+I'm Gabriel Advent
 
-- 📫  **bie.ritan112@gmail.com**
+Sometimes it works.  
+Sometimes it breaks.  
+
+And the bug always shows up uninvited.
+
+# Weekly Report
+
+<!--START_SECTION:waka-->
+<!--END_SECTION:waka-->
