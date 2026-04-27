@@ -1,8 +1,13 @@
 name: Waka Activity Readme
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: "0 0 */7 * *"   
+    - cron: "0 0 */7 * *"
+
+permissions:
+  contents: write
+
 jobs:
   update-readme:
     name: WakaMetrics
