@@ -1,11 +1,12 @@
-```bash
+<!-- ```bash
 $ curl -s https://github.com/gabrieladvent.gpg | gpg --import
-```
+``` -->
 
-I'm Gabriel Advent
+I'm a fullstack developer.
 
-Sometimes it works.  
-Sometimes it breaks.  
+> Sometimes it works.  
+> Sometimes it breaks.  
+> And the bug always shows up uninvited. 
 
 And the bug always shows up uninvited.
 
