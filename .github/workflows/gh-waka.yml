@@ -18,7 +18,7 @@ jobs:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
           SHOW_TITLE: true
           SECTION_NAME: waka
-          BLOCKS: ⣀⣄⣤⣦⣶⣷⣿
+          BLOCKS: ▁▂▃▄▅▆▇
           TIME_RANGE: last_7_days
           CODE_LANG: md
           LANG_COUNT: 4
