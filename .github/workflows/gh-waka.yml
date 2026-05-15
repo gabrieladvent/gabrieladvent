@@ -13,6 +13,11 @@ jobs:
     name: WakaMetrics
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+        with:
+          ref: main
+
       - uses: athul/waka-readme@master
         with:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
@@ -27,10 +32,37 @@ jobs:
           SHOW_TOTAL: true
           SHOW_MASKED_TIME: false
           STOP_AT_OTHER: true
-          COMMIT_MESSAGE: Updated waka-readme graph with new metrics 
+          COMMIT_MESSAGE: Updated waka-readme graph with new metrics
           TARGET_BRANCH: main
           TARGET_PATH: README.md
           COMMITTER_NAME: GitHubActionBot
           COMMITTER_EMAIL: action-bot@github.com
           AUTHOR_NAME: gabrieladvent
           AUTHOR_EMAIL: bie.ritan112@gmail.com
+
+      - name: Pull latest README
+        run: git pull origin main
+
+      - name: Extract Waka Section
+        id: waka
+        run: |
+          WAKA_CONTENT=$(awk '/<!--START_SECTION:waka-->/,/<!--END_SECTION:waka-->/' README.md \
+            | grep -v 'START_SECTION' | grep -v 'END_SECTION')
+
+          echo "content<<EOF" >> $GITHUB_OUTPUT
+          echo "$WAKA_CONTENT" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Send Telegram Notification
+        uses: appleboy/telegram-action@master
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
+          format: markdown
+          message: |
+            📊 *WakaTime Weekly Report*
+            ━━━━━━━━━━━━━━━━━━
+            ${{ steps.waka.outputs.content }}
+            ━━━━━━━━━━━━━━━━━━
+            🌿 Branch `main` updated
+            🔗 [Lihat README](https://github.com/${{ github.repository }})
