@@ -13,14 +13,14 @@ I'm a fullstack developer.
 <!--START_SECTION:waka-->
 
 ```md
-From: 31 July 2026 - To: 07 August 2026
+From: 07 August 2026 - To: 14 August 2026
 
-Total Time: 24 hrs 6 mins
+Total Time: 27 hrs 58 mins
 
-PHP              10 hrs 18 mins        ▇▇▇▇▇▇▇▇▇▆▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   39.42 %
-TypeScript       5 hrs 56 mins         ▇▇▇▇▇▅▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   22.75 %
-Markdown         3 hrs 44 mins         ▇▇▇▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   14.29 %
-Other            2 hrs 1 min           ▇▇▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   07.76 %
+PHP              11 hrs 27 mins        ▇▇▇▇▇▇▇▇▇▃▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   37.48 %
+TypeScript       8 hrs 4 mins          ▇▇▇▇▇▇▅▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   26.44 %
+Markdown         3 hrs 6 mins          ▇▇▄▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   10.18 %
+Other            2 hrs 34 mins         ▇▇▂▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁▁   08.43 %
 ```
 
 <!--END_SECTION:waka-->
